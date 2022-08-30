@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "previous",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut.sol": "Solver"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut.sol": {
+			"keccak256": "0x60c87ca544f3ce79e3b327a8beff566f550a34e256017aa2f29243bba2f33ad0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c8892ec04f1e90c55c702f8c6c2657886091fe91ad847f1536346979c3a4c50",
+				"dweb:/ipfs/Qmdp8MvHTgvEHcu7PhVcDB2yE628DhB3NzLJk6ewQKqJu3"
+			]
+		}
+	},
+	"version": 1
+}

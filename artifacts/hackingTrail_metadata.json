@@ -1,0 +1,56 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hackTrail",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"trailOfBits.sol": "hackingTrail"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"trailOfBits.sol": {
+			"keccak256": "0x6db44d3461898a7f0474880db602838095648a315cee813a81bf8252ad4a0035",
+			"urls": [
+				"bzz-raw://06dcdec48f9995633739cf6a520b2d0a3f69c8587a7579cc40ff9159eeda3b8a",
+				"dweb:/ipfs/QmdeKZ2gBFkYzQjDV9DWKrQQDqtaAW4n9Y1mEBUihD1AwB"
+			]
+		}
+	},
+	"version": 1
+}

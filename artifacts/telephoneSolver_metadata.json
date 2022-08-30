@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "solve",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernautTelephone.sol": "telephoneSolver"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernautTelephone.sol": {
+			"keccak256": "0xfeb4ac690ff4986d2f18b8ff5bb0cfc194625d43acbb95e944668e4c4e14becc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09ed0b445a7f913582684c00a5ab345efa600cebca524a438ee86f38d34151f9",
+				"dweb:/ipfs/QmQJu2ffZWLPmVihesy2Bu8zXJTg1cpAinHEWuQXsdDKBp"
+			]
+		}
+	},
+	"version": 1
+}

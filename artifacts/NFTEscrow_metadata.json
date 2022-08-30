@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "bar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "NFTEscrow"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x5fac473099f9c7a0a70f1561aac9ab62602ae0984a9157bad8c8795a01efde1f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dd604a3aefbb20a0eda014995b1380471d13dfdfd44314137c0b9b8d1c0c1494",
+				"dweb:/ipfs/QmQUXQbzmf5pfKt9TmoG8rftYK7eo1SwKnvFLBUpBVbcwq"
+			]
+		}
+	},
+	"version": 1
+}

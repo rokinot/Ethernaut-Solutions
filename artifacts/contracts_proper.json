@@ -1,0 +1,73 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_50": {
+					"entryPoint": null,
+					"id": 50,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "610120604052348015601057600080fd5b506000608081905260a081905260c08190526001610100819052808255600160f81b60e0528190819080603f605b84396000505060005050600050506000505060005050603f6000f3fe6080604052600080fdfea26469706673582212208ad1dfb51521e7f24ba42174f761d3d495a611c5cf7958210ff545f107704bb264736f6c63430008070033",
+			"opcodes": "PUSH2 0x120 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x0 PUSH1 0x80 DUP2 SWAP1 MSTORE PUSH1 0xA0 DUP2 SWAP1 MSTORE PUSH1 0xC0 DUP2 SWAP1 MSTORE PUSH1 0x1 PUSH2 0x100 DUP2 SWAP1 MSTORE DUP1 DUP3 SSTORE PUSH1 0x1 PUSH1 0xF8 SHL PUSH1 0xE0 MSTORE DUP2 SWAP1 DUP2 SWAP1 DUP1 PUSH1 0x3F PUSH1 0x5B DUP5 CODECOPY PUSH1 0x0 POP POP PUSH1 0x0 POP POP PUSH1 0x0 POP POP PUSH1 0x0 POP POP PUSH1 0x0 POP POP PUSH1 0x3F PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP11 0xD1 0xDF 0xB5 ISZERO 0x21 0xE7 CALLCODE 0x4B LOG4 0x21 PUSH21 0xF761D3D495A611C5CF7958210FF545F107704BB264 PUSH20 0x6F6C634300080700330000000000000000000000 ",
+			"sourceMap": "26:331:0:-:0;;;207:145;;;;;;;;;-1:-1:-1;244:1:0;232:14;;;;257;;;;282;;;;311:1;307:5;;;;323;;;-1:-1:-1;;;339:5:0;;244:1;;;;311;26:331;;244:1;26:331;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212208ad1dfb51521e7f24ba42174f761d3d495a611c5cf7958210ff545f107704bb264736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP11 0xD1 0xDF 0xB5 ISZERO 0x21 0xE7 CALLCODE 0x4B LOG4 0x21 PUSH21 0xF761D3D495A611C5CF7958210FF545F107704BB264 PUSH20 0x6F6C634300080700330000000000000000000000 ",
+			"sourceMap": "26:331:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "infinite",
+				"totalCost": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

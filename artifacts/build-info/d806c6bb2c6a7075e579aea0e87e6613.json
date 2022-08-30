@@ -1,0 +1,261 @@
+{
+	"id": "d806c6bb2c6a7075e579aea0e87e6613",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"test.sol": {
+				"content": "// SPDX-License-Identifier: CC0-1.0\r\npragma solidity ^0.8.7;\r\n\r\n//import \"./test2.sol\";\r\n//0xB9e2A2008d3A58adD8CC1cE9c15BF6D4bB9C6d72\r\n\r\ninterface contractsMemory {\r\n\r\n    event Test();\r\n\r\n    function test(uint256 aux) external returns (bool);\r\n\r\n}\r\n\r\n//1658001481\r\n//4294967295"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": true,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"test.sol": {
+				"contractsMemory": {
+					"abi": [
+						{
+							"anonymous": false,
+							"inputs": [],
+							"name": "Test",
+							"type": "event"
+						},
+						{
+							"inputs": [
+								{
+									"internalType": "uint256",
+									"name": "aux",
+									"type": "uint256"
+								}
+							],
+							"name": "test",
+							"outputs": [
+								{
+									"internalType": "bool",
+									"name": "",
+									"type": "bool"
+								}
+							],
+							"stateMutability": "nonpayable",
+							"type": "function"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"gasEstimates": null,
+						"legacyAssembly": null,
+						"methodIdentifiers": {
+							"test(uint256)": "29e99f07"
+						}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[],\"name\":\"Test\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"aux\",\"type\":\"uint256\"}],\"name\":\"test\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"test.sol\":\"contractsMemory\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"test.sol\":{\"keccak256\":\"0xf09c7a97abfe1d85a4cefc054c4635c59b6e2eb686c04e58d9ead6e4b8c0dfd4\",\"license\":\"CC0-1.0\",\"urls\":[\"bzz-raw://4759a44b73c75551def6f7e26a820a6f02fa9f23ed2df49d864230d47cd1b0ee\",\"dweb:/ipfs/QmXrtDZk1YMvafMhfxnSQF2eG5G72iKWd2wt1pFdhxXoSy\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"test.sol": {
+				"ast": {
+					"absolutePath": "test.sol",
+					"exportedSymbols": {
+						"contractsMemory": [
+							11
+						]
+					},
+					"id": 12,
+					"license": "CC0-1.0",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".7"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "37:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "interface",
+							"fullyImplemented": false,
+							"id": 11,
+							"linearizedBaseContracts": [
+								11
+							],
+							"name": "contractsMemory",
+							"nameLocation": "147:15:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"anonymous": false,
+									"id": 3,
+									"name": "Test",
+									"nameLocation": "178:4:0",
+									"nodeType": "EventDefinition",
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "182:2:0"
+									},
+									"src": "172:13:0"
+								},
+								{
+									"functionSelector": "29e99f07",
+									"id": 10,
+									"implemented": false,
+									"kind": "function",
+									"modifiers": [],
+									"name": "test",
+									"nameLocation": "202:4:0",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 6,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 5,
+												"mutability": "mutable",
+												"name": "aux",
+												"nameLocation": "215:3:0",
+												"nodeType": "VariableDeclaration",
+												"scope": 10,
+												"src": "207:11:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_uint256",
+													"typeString": "uint256"
+												},
+												"typeName": {
+													"id": 4,
+													"name": "uint256",
+													"nodeType": "ElementaryTypeName",
+													"src": "207:7:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_uint256",
+														"typeString": "uint256"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "206:13:0"
+									},
+									"returnParameters": {
+										"id": 9,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 8,
+												"mutability": "mutable",
+												"name": "",
+												"nameLocation": "-1:-1:-1",
+												"nodeType": "VariableDeclaration",
+												"scope": 10,
+												"src": "238:4:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bool",
+													"typeString": "bool"
+												},
+												"typeName": {
+													"id": 7,
+													"name": "bool",
+													"nodeType": "ElementaryTypeName",
+													"src": "238:4:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bool",
+														"typeString": "bool"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "237:6:0"
+									},
+									"scope": 11,
+									"src": "193:51:0",
+									"stateMutability": "nonpayable",
+									"virtual": false,
+									"visibility": "external"
+								}
+							],
+							"scope": 12,
+							"src": "137:112:0",
+							"usedErrors": []
+						}
+					],
+					"src": "37:242:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

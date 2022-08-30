@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "addrChecker",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "tester"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x10881a29d8602d8b33cbb7a0e89bae5922c3ca3eeac85acfe04ed57efab057e2",
+			"license": "CC0-1.0",
+			"urls": [
+				"bzz-raw://caae4e32a062d5ade6ff70a2bed03941b2a96c01c14efbec104bf62ddbad79cd",
+				"dweb:/ipfs/QmXxpbotphyt5SdLxKosa5Sw1cHSFZ9sReyHZNZN8VWGJt"
+			]
+		}
+	},
+	"version": 1
+}

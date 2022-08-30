@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut.sol": "blockhashGetter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut.sol": {
+			"keccak256": "0x9246418b3f6e3216684cd6ae65a3b73efcd94356a03a2fa653ddcae38de1f5c2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7452875730e8b514c0213d44d159efd3f23338577bed6143280e1a4dc753d3b9",
+				"dweb:/ipfs/QmdEUHcQXFz6Jno28drSsvurv3hapnbzo1yFvnTcvSKN4m"
+			]
+		}
+	},
+	"version": 1
+}

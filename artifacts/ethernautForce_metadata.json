@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "solve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernautForce.sol": "ethernautForce"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernautForce.sol": {
+			"keccak256": "0x431e3c6b16cb341158773e6355a28671d4b09ac2298e3110dfb9b8694aee47e2",
+			"urls": [
+				"bzz-raw://e3c16d8fb1e8b2ef043442bf8f6cfe9e696b1b6ae0c0c21d0176d25c6f73e8b6",
+				"dweb:/ipfs/QmYSxM35v6CbtqkMYv24USQ2ZPkahv1cPYRMjuXHPBacxq"
+			]
+		}
+	},
+	"version": 1
+}

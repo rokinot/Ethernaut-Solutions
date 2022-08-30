@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "password",
+						"type": "bytes32"
+					}
+				],
+				"name": "solve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaultVault.sol": "ethernaultVault"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaultVault.sol": {
+			"keccak256": "0x6300967ebc7a2a73a74a9c2652be1b4ba67bf05c1590ff8665f1441640e17606",
+			"urls": [
+				"bzz-raw://57e2300520c186dc93d715f260656021cfdd9804eaf3afb9f5025d49ae6af515",
+				"dweb:/ipfs/QmYCa2gKLvevhoHemZ6meR7icmp4EXABECaDeyfFpmRfdU"
+			]
+		}
+	},
+	"version": 1
+}

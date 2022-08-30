@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "targetAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "isDelegateCall",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "weiValue",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "This funny and wacky contract will do whatever you want and fade away in the same transaction.",
+					"params": {
+						"addr": "The address to eject remaining ether to.",
+						"data": "The calldata parameters in your delegate calls. "
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "GhostContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x38fecfcdbd0d268c127de06553057338c581a98c476d04d4b0c8072f179f1385",
+			"license": "CC0-1.0",
+			"urls": [
+				"bzz-raw://e813c4ac0283beeb05ef4128f334dbf7cc4f20736ee2708f03530ade5472b6ef",
+				"dweb:/ipfs/QmPxWHpBctzpL6WoA7nwYXPrQDPSgePbZAsbd6ACbfDvmN"
+			]
+		}
+	},
+	"version": 1
+}

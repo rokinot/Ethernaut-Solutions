@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16[]",
+						"name": "aux",
+						"type": "uint16[]"
+					}
+				],
+				"name": "testCanon",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "contracts_bad"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0xfa088ecf6cf36a8489bf273cb42992d6a15d573dadc6f6ad42ee4e2fb79a9129",
+			"license": "CC0-1.0",
+			"urls": [
+				"bzz-raw://6d3f23c0706d706177aabb52cd07039da57cecadd13ca1df8ced3e2add24d813",
+				"dweb:/ipfs/QmRLQEXZ6JDfMoZZvE55VyUAnj18V4ikTdJSKBceKGCRJT"
+			]
+		}
+	},
+	"version": 1
+}

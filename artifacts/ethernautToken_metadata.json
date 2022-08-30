@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "solve",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernautToken.sol": "ethernautToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernautToken.sol": {
+			"keccak256": "0x1db3df9d9934414bd03106ce9c4bbcf7f08b7f8fdbba3fb7acbb12e3a9ac892d",
+			"urls": [
+				"bzz-raw://57676d1a4021ee4865d1ea0b323ee39d77f6ede686108d94fe740f5dc0f2806d",
+				"dweb:/ipfs/QmZjenidj7eNM363ML1QjsBGJ3B1d9mkE2Wkf3yjeEBdd9"
+			]
+		}
+	},
+	"version": 1
+}

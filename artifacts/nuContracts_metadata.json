@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "nuContracts"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test.sol": {
+			"keccak256": "0x0e593c5faf8a687af6697116c3235b29450a1a159719f7c68ea4517a790bb4f6",
+			"license": "CC0-1.0",
+			"urls": [
+				"bzz-raw://dca4a36f57e925fcf11abe2f753cf139943f56ffb9500d5ed625504a4d98f93a",
+				"dweb:/ipfs/QmP8eB2fJLNMJzMRqXnhgQsNBrFFCfVZThaohfmm4Gf69U"
+			]
+		}
+	},
+	"version": 1
+}

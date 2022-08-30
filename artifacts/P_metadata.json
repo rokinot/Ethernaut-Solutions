@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "fp",
+						"type": "bytes32"
+					}
+				],
+				"name": "p",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rt",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "fp",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test2.sol": "P"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test2.sol": {
+			"keccak256": "0x8f4b5830037ac6fb943f7a4885be244a78f9712bc8abcd2f2be6963c7aff4b8d",
+			"license": "UNLICENSE",
+			"urls": [
+				"bzz-raw://8c41e0cf826ed3d200d1bd56f59782614573762d844b2eceacbe0478eeae9a0f",
+				"dweb:/ipfs/QmQGGufipGAEGgXqUbmFdNgK3BB6TFVpPoDAD8PpTtg56H"
+			]
+		}
+	},
+	"version": 1
+}

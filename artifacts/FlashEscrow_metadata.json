@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "payload",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"details": "Deployed for each NFT, its address is calculated by {NFTEscrow} prior to it being deployed to allow atomic non ERC721 transfers ",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "The contract selfdestructs in the constructor, its only purpose is to perform one call to the `target` address using `payload` as the payload",
+					"params": {
+						"payload": "The payload to use for the call",
+						"target": "The call recipient"
+					}
+				}
+			},
+			"title": "FlashEscrow contract ",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "This contract sends and receives non ERC721 NFTs",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test.sol": "FlashEscrow"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+			"keccak256": "0x372b0bc04e3b4c074559bbbfb1317afddb56de5504158ca25a7f9cd403980445",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://88b812365459a042c2aab5c689ff723098e0e19cb372718d3dd028b3c406e4f6",
+				"dweb:/ipfs/QmTsLrMYzPjnB85pyAy85NNcBg64RPVueJARzwNg9xMyR1"
+			]
+		},
+		"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+			"keccak256": "0x55cf2bd9fc76704ddcdc19834cd288b7de00fc0f298a40ea16a954ae8991db2d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://37e4df53c8d2e3c1062c1c7b2c17366db7de03bfd2559d340ca95c588aa49c2f",
+				"dweb:/ipfs/QmQ9vsG3o4wED3FRogiSUhdzJvZSjjYFtydzXvFEJtgZk4"
+			]
+		},
+		"test.sol": {
+			"keccak256": "0x41d9c84cd10f0ee4f10f77874eb6f1c79f9cb727b3cffd660fccf4546e93691c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cb24a49f0ff78c22d8ef708a790b68ece0450060e3f2fdfb01b76882c265ebcf",
+				"dweb:/ipfs/QmZB53GTXbpRrwW6N3EU9xXsSTQDx8bMbHkrR9pQxdcheD"
+			]
+		}
+	},
+	"version": 1
+}
